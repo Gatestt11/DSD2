@@ -1,0 +1,29 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'clk'
+Slack : -16.582
+TNS   : -682.546
+
+Type  : Setup 'ADC:ADC_PORTMAP|temp'
+Slack : -12.906
+TNS   : -333.494
+
+Type  : Hold 'clk'
+Slack : -1.187
+TNS   : -1.187
+
+Type  : Hold 'ADC:ADC_PORTMAP|temp'
+Slack : 1.925
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'clk'
+Slack : -2.289
+TNS   : -2.289
+
+Type  : Minimum Pulse Width 'ADC:ADC_PORTMAP|temp'
+Slack : 0.234
+TNS   : 0.000
+
+------------------------------------------------------------
