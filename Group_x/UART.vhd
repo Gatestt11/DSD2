@@ -7,8 +7,8 @@ port (
 	start_tx: in std_logic;
 	CLK: in std_logic;
 	TX: out std_logic;
-	tens: in std_logic_vector(7 downto 0) := (others => '0');
-	unit: in std_logic_vector(7 downto 0) := (others => '0')
+	tens: in std_logic_vector(7 downto 0) ;
+	unit: in std_logic_vector(7 downto 0) 
 );
 end UART;
 

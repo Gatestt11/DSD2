@@ -1,0 +1,192 @@
+m255
+K3
+13
+cModel Technology
+dE:\Test
+Eadc
+Z0 w1688628816
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\84778\OneDrive - Hanoi University of Science and Technology\Desktop\DSD2\Group_x
+Z5 8C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/ADC.vhd
+Z6 FC:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/ADC.vhd
+l0
+L8
+V6S9XkgHo[IBV]3bflXO[12
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1688629808.878000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/ADC.vhd|
+Z10 !s107 C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/ADC.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 8<O;igAQF<NM6fNKU4H?G2
+!i10b 1
+Abehav
+R1
+R2
+R3
+DEx4 work 3 adc 0 22 6S9XkgHo[IBV]3bflXO[12
+l27
+L22
+VnAf?bi[N3FYe1dG2NAAa^2
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 _J>_AGZ>l]GVoLlA1cJIa3
+!i10b 1
+Econv_data
+Z13 w1688629751
+Z14 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R2
+R3
+R4
+Z16 8C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/CONV_DATA.vhd
+Z17 FC:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/CONV_DATA.vhd
+l0
+L6
+VW?zD5NDQ0Fl>n:Bb7IhoW3
+R7
+32
+Z18 !s108 1688629808.941000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/CONV_DATA.vhd|
+Z20 !s107 C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/CONV_DATA.vhd|
+R11
+R12
+!s100 b[QGMZ>0=N:icJ`b5lHF61
+!i10b 1
+Aconverter
+R14
+R15
+R2
+R3
+DEx4 work 9 conv_data 0 22 W?zD5NDQ0Fl>n:Bb7IhoW3
+l16
+L15
+Vb5N:g^[TAbG3XTU?SQM773
+R7
+32
+R18
+R19
+R20
+R11
+R12
+!s100 L>jSL^D5FYagRQ:NZ4n@12
+!i10b 1
+Elcd
+Z21 w1688629257
+R14
+R15
+R2
+R3
+R4
+Z22 8C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/LCD.vhd
+Z23 FC:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/LCD.vhd
+l0
+L7
+V42W^USRoQjSPKRGadU8iK1
+R7
+32
+Z24 !s108 1688629808.998000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/LCD.vhd|
+Z26 !s107 C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/LCD.vhd|
+R11
+R12
+!s100 TF5U1WY`:dEKV31cYSI>91
+!i10b 1
+Acontroller
+R14
+R15
+R2
+R3
+DEx4 work 3 lcd 0 22 42W^USRoQjSPKRGadU8iK1
+l36
+L18
+VmfLN9>WP?2jFj<J3aU^<i3
+R7
+32
+R24
+R25
+R26
+R11
+R12
+!s100 n<>EcR[V0kmcSlgUlHT][1
+!i10b 1
+Emain
+Z27 w1688629261
+R2
+R3
+R4
+Z28 8C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/Main.vhd
+Z29 FC:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/Main.vhd
+l0
+L4
+V>j@E@E<`@8e^D2n6T7gnL0
+R7
+32
+Z30 !s108 1688629809.056000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/Main.vhd|
+Z32 !s107 C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/Main.vhd|
+R11
+R12
+!s100 iob^C0AC40_`JEDk0Be8`0
+!i10b 1
+Abehav
+R2
+R3
+DEx4 work 4 main 0 22 >j@E@E<`@8e^D2n6T7gnL0
+l75
+L23
+V;bGlT8nJ7l>bLiIY]Z2@o0
+!s100 URLkN;UHK]>zb_MU:8eGW3
+R7
+32
+R30
+R31
+R32
+R11
+R12
+!i10b 1
+Euart
+Z33 w1688224405
+R1
+R2
+R3
+R4
+Z34 8C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/UART.vhd
+Z35 FC:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/UART.vhd
+l0
+L5
+VWG:dQc<N1[6MXmU4h;[7<1
+!s100 MS0]?CBK:KPKL[JEAZ1Na3
+R7
+32
+!i10b 1
+Z36 !s108 1688629809.100000
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/UART.vhd|
+Z38 !s107 C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/UART.vhd|
+R11
+R12
+Abehav
+R1
+R2
+R3
+Z39 DEx4 work 4 uart 0 22 WG:dQc<N1[6MXmU4h;[7<1
+l26
+L15
+Z40 V4a7Q04`Wf2?@ebO[JVK4K1
+Z41 !s100 3_RGIH8Kc^=G4mMeDRZ;H0
+R7
+32
+!i10b 1
+R36
+R37
+R38
+R11
+R12

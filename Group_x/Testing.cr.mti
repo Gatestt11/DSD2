@@ -1,0 +1,47 @@
+{C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/CONV_DATA.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/CONV_DATA.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity CONV_DATA
+-- Compiling architecture converter of CONV_DATA
+
+} {} {}} {C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/LCD.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/LCD.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity LCD
+-- Compiling architecture controller of LCD
+
+} {} {}} {C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/UART.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/UART.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity UART
+-- Compiling architecture behav of UART
+
+} {} {}} {C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/ADC.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/ADC.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ADC
+-- Compiling architecture behav of ADC
+
+} {} {}} {C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/Main.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/84778/OneDrive - Hanoi University of Science and Technology/Desktop/DSD2/Group_x/Main.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Main
+-- Compiling architecture behav of Main
+
+} {} {}}

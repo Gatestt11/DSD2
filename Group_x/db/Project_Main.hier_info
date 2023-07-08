@@ -1,6 +1,6 @@
 |Main
+clk => CLK_ADC:CLK_CHIA.clk
 clk => LCD:LCD_PORTMAP.clk
-clk => ADC:ADC_PORTMAP.clk_in
 clk => UART:UART_PORTMAP.CLK
 TX << UART:UART_PORTMAP.TX
 cs << ADC:ADC_PORTMAP.cs
@@ -15,7 +15,7 @@ data_adc[5] => ADC:ADC_PORTMAP.data_adc[5]
 data_adc[6] => ADC:ADC_PORTMAP.data_adc[6]
 data_adc[7] => ADC:ADC_PORTMAP.data_adc[7]
 intr => ADC:ADC_PORTMAP.intr
-clk_adc << ADC:ADC_PORTMAP.clk_adc
+clk_adc_out << CLK_ADC:CLK_CHIA.clk_out
 lcd_rw << LCD:LCD_PORTMAP.lcd_rw
 lcd_rs << LCD:LCD_PORTMAP.lcd_rs
 lcd_en << LCD:LCD_PORTMAP.lcd_en
@@ -27,6 +27,18 @@ data_to_display[4] << LCD:LCD_PORTMAP.data_to_display[4]
 data_to_display[5] << LCD:LCD_PORTMAP.data_to_display[5]
 data_to_display[6] << LCD:LCD_PORTMAP.data_to_display[6]
 data_to_display[7] << LCD:LCD_PORTMAP.data_to_display[7]
+
+
+|Main|CLK_ADC:CLK_CHIA
+clk => temp.CLK
+clk => cnt[0].CLK
+clk => cnt[1].CLK
+clk => cnt[2].CLK
+clk => cnt[3].CLK
+clk => cnt[4].CLK
+clk => cnt[5].CLK
+clk => cnt[6].CLK
+clk_out <= temp.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |Main|LCD:LCD_PORTMAP
@@ -155,15 +167,38 @@ unit[7] <= <GND>
 
 |Main|ADC:ADC_PORTMAP
 cs <= cs~reg0.DB_MAX_OUTPUT_PORT_TYPE
-clk_in => temp.CLK
-clk_in => cnt2[0].CLK
-clk_in => cnt2[1].CLK
-clk_in => cnt2[2].CLK
-clk_in => cnt2[3].CLK
-clk_in => cnt2[4].CLK
-clk_in => cnt2[5].CLK
-clk_in => cnt2[6].CLK
-clk_adc <= temp.DB_MAX_OUTPUT_PORT_TYPE
+clk_in => start_tx~reg0.CLK
+clk_in => temp_data[0]~reg0.CLK
+clk_in => temp_data[1]~reg0.CLK
+clk_in => temp_data[2]~reg0.CLK
+clk_in => temp_data[3]~reg0.CLK
+clk_in => temp_data[4]~reg0.CLK
+clk_in => temp_data[5]~reg0.CLK
+clk_in => temp_data[6]~reg0.CLK
+clk_in => temp_data[7]~reg0.CLK
+clk_in => flag.CLK
+clk_in => cs~reg0.CLK
+clk_in => rd~reg0.CLK
+clk_in => wr~reg0.CLK
+clk_in => cnt[0].CLK
+clk_in => cnt[1].CLK
+clk_in => cnt[2].CLK
+clk_in => cnt[3].CLK
+clk_in => cnt[4].CLK
+clk_in => cnt[5].CLK
+clk_in => cnt[6].CLK
+clk_in => cnt[7].CLK
+clk_in => cnt[8].CLK
+clk_in => cnt[9].CLK
+clk_in => cnt[10].CLK
+clk_in => cnt[11].CLK
+clk_in => cnt[12].CLK
+clk_in => cnt[13].CLK
+clk_in => cnt[14].CLK
+clk_in => cnt[15].CLK
+clk_in => cnt[16].CLK
+clk_in => cnt[17].CLK
+clk_in => cnt[18].CLK
 wr <= wr~reg0.DB_MAX_OUTPUT_PORT_TYPE
 rd <= rd~reg0.DB_MAX_OUTPUT_PORT_TYPE
 data_adc[0] => temp_data[0]~reg0.DATAIN
@@ -174,8 +209,8 @@ data_adc[4] => temp_data[4]~reg0.DATAIN
 data_adc[5] => temp_data[5]~reg0.DATAIN
 data_adc[6] => temp_data[6]~reg0.DATAIN
 data_adc[7] => temp_data[7]~reg0.DATAIN
-intr => process_1.IN1
-start_tx <= <VCC>
+intr => process_0.IN1
+start_tx <= start_tx~reg0.DB_MAX_OUTPUT_PORT_TYPE
 temp_data[0] <= temp_data[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 temp_data[1] <= temp_data[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 temp_data[2] <= temp_data[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE

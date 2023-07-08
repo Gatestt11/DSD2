@@ -5,10 +5,10 @@ use ieee.std_logic_unsigned.all;
 
 entity CONV_DATA is
  port(
-	data_in: in std_logic_vector(7 downto 0) := (others => '0'); -- 7 bits data from adc
-	hund: out std_logic_vector(7 downto 0) := (others => '0');
-	tens: out std_logic_vector(7 downto 0) := (others => '0');
-	unit: out std_logic_vector(7 downto 0) := (others => '0')
+	data_in: in std_logic_vector(7 downto 0); -- 7 bits data from adc
+	hund: out std_logic_vector(7 downto 0);
+	tens: out std_logic_vector(7 downto 0);
+	unit: out std_logic_vector(7 downto 0)
  );
 end CONV_DATA;
 
@@ -18,7 +18,7 @@ begin
 	variable i : integer range 0 to 8 := 0;
 	variable bcd_temp : std_logic_vector(19 downto 0); -- 16 = 8bit(in)+ 4bit(tens) +4 bit(unit)
  begin
-	bcd_temp := (others => '0');
+	bcd_temp(19 downto 8) := b"000000000000";
 	bcd_temp(7 downto 0) := data_in;
 		for i in 0 to 7 loop  
 		
@@ -37,10 +37,9 @@ begin
 		end if;
 			 
 	end loop;
-
+	hund <= (bcd_temp(19 downto 16)) + X"00";
 	tens <= (bcd_temp(15 downto 12)) + X"00";
 	unit <= (bcd_temp(11 downto 8)) + X"00";
-	hund <= (bcd_temp(19 downto 16)) + X"00";
  end process;
  
 end converter;

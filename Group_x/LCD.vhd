@@ -8,9 +8,9 @@ entity LCD is
 port(
 	clk : in std_logic; --system cloc k
 	----- d = tensunitd0
-	hund: in std_logic_vector(7 downto 0) := (others => '0');
-	tens: in std_logic_vector(7 downto 0) := (others => '0');
-	unit: in std_logic_vector(7 downto 0) := (others => '0');
+	hund: in std_logic_vector(7 downto 0);
+	tens: in std_logic_vector(7 downto 0);
+	unit: in std_logic_vector(7 downto 0);
 	lcd_rw, lcd_rs, lcd_en : out std_logic := '0'; --read/write, setup/data, and enable for lcd
 	data_to_display : out std_logic_vector(7 downto 0) := x"00" --data signals for lcd
 	);

@@ -67,7 +67,7 @@ GND*                         : 2         :        :                   :         
 GND*                         : 3         :        :                   :         : 1         :                
 GND*                         : 4         :        :                   :         : 1         :                
 GND*                         : 5         :        :                   :         : 1         :                
-GND*                         : 6         :        :                   :         : 1         :                
+clk_adc_out                  : 6         : output : 3.3-V LVTTL       :         : 1         : N              
 GND*                         : 7         :        :                   :         : 1         :                
 GND*                         : 8         :        :                   :         : 1         :                
 VCCIO1                       : 9         : power  :                   : 3.3V    : 1         :                
@@ -134,7 +134,7 @@ rd                           : 69        : output : 3.3-V LVTTL       :         
 lcd_rw                       : 70        : output : 3.3-V LVTTL       :         : 2         : Y              
 wr                           : 71        : output : 3.3-V LVTTL       :         : 2         : Y              
 lcd_en                       : 72        : output : 3.3-V LVTTL       :         : 2         : Y              
-clk_adc                      : 73        : output : 3.3-V LVTTL       :         : 2         : Y              
+GND*                         : 73        :        :                   :         : 2         :                
 data_to_display[0]           : 74        : output : 3.3-V LVTTL       :         : 2         : Y              
 intr                         : 75        : input  : 3.3-V LVTTL       :         : 2         : Y              
 data_to_display[1]           : 76        : output : 3.3-V LVTTL       :         : 2         : Y              

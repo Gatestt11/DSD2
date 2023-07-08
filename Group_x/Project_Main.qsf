@@ -79,3 +79,6 @@ set_location_assignment PIN_75 -to intr
 set_location_assignment PIN_69 -to rd
 set_location_assignment PIN_71 -to wr
 set_location_assignment PIN_53 -to cs
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name VHDL_FILE CLK_ADC.vhd
